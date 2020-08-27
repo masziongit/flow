@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-27T08:45:07.234Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="_LTpwiwvKkYXCB_TyudS" version="13.6.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-08-27T08:45:42.392Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="EaswzmZdBWp2NAADJ0Tr" version="13.6.5" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="DB_DESIGN">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -444,8 +444,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aO3eStA1INaVhPGqDU2J-0" value="myBet &amp;gt;&amp;nbsp;Aucntion.lowerBetRate&lt;br&gt;&amp;amp;&amp;amp;&lt;br&gt;myBet &amp;gt; Max(&lt;span style=&quot;text-align: left&quot;&gt;Bit_Value&lt;/span&gt;)&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="MF7Ad_Qwx-AWlr1IKt-B-11">
-          <mxGeometry x="540" y="10" width="220" height="130" as="geometry" />
+        <mxCell id="aO3eStA1INaVhPGqDU2J-0" value="myBet &amp;gt;&amp;nbsp;Aucntion.Lower_Bet_Rate&lt;br&gt;&amp;amp;&amp;amp;&lt;br&gt;myBet &amp;gt; Max(&lt;span style=&quot;text-align: left&quot;&gt;Bit_Value&lt;/span&gt;)&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="MF7Ad_Qwx-AWlr1IKt-B-11">
+          <mxGeometry x="540" y="10" width="250" height="130" as="geometry" />
         </mxCell>
         <mxCell id="MF7Ad_Qwx-AWlr1IKt-B-15" value="Set ResponseCommon&lt;br&gt;Msg : Sucess" style="whiteSpace=wrap;html=1;" vertex="1" parent="MF7Ad_Qwx-AWlr1IKt-B-11">
           <mxGeometry x="970" y="45" width="140" height="60" as="geometry" />
@@ -489,7 +489,7 @@
         <mxCell id="VMy4jYJjVolEA0LyFzwE-17" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="MF7Ad_Qwx-AWlr1IKt-B-11" source="VMy4jYJjVolEA0LyFzwE-2" target="VMy4jYJjVolEA0LyFzwE-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VMy4jYJjVolEA0LyFzwE-2" value="&lt;span&gt;myBet &amp;gt;&amp;nbsp;&lt;/span&gt;Aucntion.lowerBet" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="MF7Ad_Qwx-AWlr1IKt-B-11">
+        <mxCell id="VMy4jYJjVolEA0LyFzwE-2" value="&lt;span&gt;myBet &amp;gt;&amp;nbsp;&lt;/span&gt;Aucntion.Lower_Bet" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="MF7Ad_Qwx-AWlr1IKt-B-11">
           <mxGeometry x="540" y="320" width="220" height="80" as="geometry" />
         </mxCell>
         <mxCell id="QBs7qhhS8D4mg44jxgd6-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="MF7Ad_Qwx-AWlr1IKt-B-2" source="MF7Ad_Qwx-AWlr1IKt-B-21" target="QBs7qhhS8D4mg44jxgd6-0">
