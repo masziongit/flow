@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-27T08:09:44.141Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="kROCE-VNgz3MpU0tjPV6" version="13.6.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-08-27T08:11:28.526Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="68LAh--8OGjjPia_X4Rh" version="13.6.5" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="DB_DESIGN">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -225,7 +225,7 @@
         <mxCell id="ZLn3TWq62KgtK1NyiZkL-0" value="Set Response" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="4Vxx2f3xJ7-88e2hnjxp-3">
           <mxGeometry x="540" y="50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4Vxx2f3xJ7-88e2hnjxp-19" value="&lt;span&gt;Get Method&lt;/span&gt;&lt;br&gt;&lt;span&gt;input&lt;/span&gt;&lt;br&gt;&lt;span&gt;PlayerBetRequest&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="4Vxx2f3xJ7-88e2hnjxp-3">
+        <mxCell id="4Vxx2f3xJ7-88e2hnjxp-19" value="&lt;span&gt;Get Method&lt;/span&gt;&lt;br&gt;&lt;span&gt;input&lt;/span&gt;&lt;br&gt;goods_code : String" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="4Vxx2f3xJ7-88e2hnjxp-3">
           <mxGeometry x="40" y="50" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4Vxx2f3xJ7-88e2hnjxp-21" value="Call Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4Vxx2f3xJ7-88e2hnjxp-3">
@@ -237,7 +237,7 @@
         <mxCell id="4Vxx2f3xJ7-88e2hnjxp-25" value="Call Repository" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="4Vxx2f3xJ7-88e2hnjxp-4">
           <mxGeometry x="230" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4Vxx2f3xJ7-88e2hnjxp-23" value="input&lt;br&gt;PlayerBetRequest" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="4Vxx2f3xJ7-88e2hnjxp-4">
+        <mxCell id="4Vxx2f3xJ7-88e2hnjxp-23" value="input&lt;br&gt;goods_code : String" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="4Vxx2f3xJ7-88e2hnjxp-4">
           <mxGeometry x="40" y="60" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4Vxx2f3xJ7-88e2hnjxp-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4Vxx2f3xJ7-88e2hnjxp-4" source="4Vxx2f3xJ7-88e2hnjxp-23" target="4Vxx2f3xJ7-88e2hnjxp-25">
@@ -294,7 +294,7 @@
         <mxCell id="4Vxx2f3xJ7-88e2hnjxp-29" value="Connect to database" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="4Vxx2f3xJ7-88e2hnjxp-5">
           <mxGeometry x="320" y="40" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="4Vxx2f3xJ7-88e2hnjxp-27" value="input&lt;br&gt;PlayerBetRequest" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="4Vxx2f3xJ7-88e2hnjxp-5">
+        <mxCell id="4Vxx2f3xJ7-88e2hnjxp-27" value="input&lt;br&gt;goods_code : String" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="4Vxx2f3xJ7-88e2hnjxp-5">
           <mxGeometry x="40" y="50" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4Vxx2f3xJ7-88e2hnjxp-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4Vxx2f3xJ7-88e2hnjxp-5" source="4Vxx2f3xJ7-88e2hnjxp-29" target="4Vxx2f3xJ7-88e2hnjxp-32">
@@ -337,7 +337,7 @@
         <mxCell id="MF7Ad_Qwx-AWlr1IKt-B-8" value="Set Response" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="MF7Ad_Qwx-AWlr1IKt-B-6">
           <mxGeometry x="540" y="50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MF7Ad_Qwx-AWlr1IKt-B-9" value="&lt;span&gt;Post Method&lt;/span&gt;&lt;br&gt;&lt;span&gt;input&lt;/span&gt;&lt;br&gt;&lt;span&gt;goods_code : String&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="MF7Ad_Qwx-AWlr1IKt-B-6">
+        <mxCell id="MF7Ad_Qwx-AWlr1IKt-B-9" value="Post Method&lt;br&gt;input&lt;br&gt;PlayerBetRequest" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="MF7Ad_Qwx-AWlr1IKt-B-6">
           <mxGeometry x="40" y="50" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MF7Ad_Qwx-AWlr1IKt-B-10" value="Call Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MF7Ad_Qwx-AWlr1IKt-B-6">
@@ -346,7 +346,7 @@
         <mxCell id="MF7Ad_Qwx-AWlr1IKt-B-11" value="Service" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="MF7Ad_Qwx-AWlr1IKt-B-2">
           <mxGeometry y="360" width="800" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="MF7Ad_Qwx-AWlr1IKt-B-12" value="input&lt;br&gt;goods_code : String" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="MF7Ad_Qwx-AWlr1IKt-B-11">
+        <mxCell id="MF7Ad_Qwx-AWlr1IKt-B-12" value="input&lt;br&gt;PlayerBetRequest" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="MF7Ad_Qwx-AWlr1IKt-B-11">
           <mxGeometry x="40" y="60" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MF7Ad_Qwx-AWlr1IKt-B-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MF7Ad_Qwx-AWlr1IKt-B-11" source="MF7Ad_Qwx-AWlr1IKt-B-12" target="MF7Ad_Qwx-AWlr1IKt-B-14">
@@ -371,7 +371,7 @@
         <mxCell id="MF7Ad_Qwx-AWlr1IKt-B-18" value="Connect to database" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="MF7Ad_Qwx-AWlr1IKt-B-16">
           <mxGeometry x="340" y="40" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="MF7Ad_Qwx-AWlr1IKt-B-19" value="input&lt;br&gt;goods_code : String" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="MF7Ad_Qwx-AWlr1IKt-B-16">
+        <mxCell id="MF7Ad_Qwx-AWlr1IKt-B-19" value="input&lt;br&gt;PlayerBetRequest" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="MF7Ad_Qwx-AWlr1IKt-B-16">
           <mxGeometry x="40" y="50" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MF7Ad_Qwx-AWlr1IKt-B-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MF7Ad_Qwx-AWlr1IKt-B-16" source="MF7Ad_Qwx-AWlr1IKt-B-18" target="MF7Ad_Qwx-AWlr1IKt-B-21">
