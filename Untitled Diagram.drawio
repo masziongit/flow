@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-27T09:11:33.968Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="b9XBgnIFA2hUWXT1TCSH" version="13.6.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-08-27T09:27:11.743Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="nU_QbdnS6vTHWYyXAch5" version="13.6.5" type="github" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="DB_DESIGN">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -336,8 +336,14 @@
         <mxCell id="4Vxx2f3xJ7-88e2hnjxp-10" value="Http Request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4Vxx2f3xJ7-88e2hnjxp-9">
           <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="fxhbghjtS4qTK7Sk3ry7-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="4Vxx2f3xJ7-88e2hnjxp-9" source="ZLn3TWq62KgtK1NyiZkL-2" target="fxhbghjtS4qTK7Sk3ry7-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ZLn3TWq62KgtK1NyiZkL-2" value="&lt;font color=&quot;#000000&quot;&gt;Display&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&amp;nbsp; Show Information:&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;Goods : Image,Code,Name,Desc&lt;br&gt;Auction : Status,&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; text-align: left&quot;&gt;Start_Time,&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; text-align: left&quot;&gt;End_Time&lt;br&gt;,Lowest_Bit,&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; text-align: left&quot;&gt;Lowest_Bit_Rate&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="shape=display;whiteSpace=wrap;html=1;fontColor=#00CC00;" vertex="1" parent="4Vxx2f3xJ7-88e2hnjxp-9">
           <mxGeometry x="450" y="20" width="290" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fxhbghjtS4qTK7Sk3ry7-0" value="&lt;span&gt;End&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="4Vxx2f3xJ7-88e2hnjxp-9">
+          <mxGeometry x="270" y="45" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4Vxx2f3xJ7-88e2hnjxp-3" value="Controller" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="4Vxx2f3xJ7-88e2hnjxp-2">
           <mxGeometry y="190" width="800" height="170" as="geometry" />
@@ -451,6 +457,12 @@
         <mxCell id="MF7Ad_Qwx-AWlr1IKt-B-3" value="Client" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="MF7Ad_Qwx-AWlr1IKt-B-2">
           <mxGeometry y="20" width="1120" height="170" as="geometry" />
         </mxCell>
+        <mxCell id="qz19sq9q8-U0lVpDSLl3-0" value="&lt;span&gt;End&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="MF7Ad_Qwx-AWlr1IKt-B-3">
+          <mxGeometry x="570" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qz19sq9q8-U0lVpDSLl3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="MF7Ad_Qwx-AWlr1IKt-B-3" source="MF7Ad_Qwx-AWlr1IKt-B-5" target="qz19sq9q8-U0lVpDSLl3-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="MF7Ad_Qwx-AWlr1IKt-B-5" value="&lt;font color=&quot;#000000&quot;&gt;Display&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;Dialog : Bet success!!&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="shape=display;whiteSpace=wrap;html=1;fontColor=#00CC00;" vertex="1" parent="MF7Ad_Qwx-AWlr1IKt-B-3">
           <mxGeometry x="800" y="30" width="170" height="80" as="geometry" />
         </mxCell>
@@ -557,7 +569,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="66nzQYJyixFeb42uacpZ-0" value="&lt;span&gt;Aucntion.status == &#39;in_progress&#39;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="MF7Ad_Qwx-AWlr1IKt-B-11">
+        <mxCell id="66nzQYJyixFeb42uacpZ-0" value="&lt;span&gt;Aucntion.status == &#39;inprogress&#39;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="MF7Ad_Qwx-AWlr1IKt-B-11">
           <mxGeometry x="300" y="190" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="VMy4jYJjVolEA0LyFzwE-0" value="Set ResponseCommon&lt;br&gt;Msg : Error" style="whiteSpace=wrap;html=1;" vertex="1" parent="MF7Ad_Qwx-AWlr1IKt-B-11">
@@ -640,11 +652,17 @@
         <mxCell id="Z-673CSP3u3POXdo56Kz-1" value="Client" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="Z-673CSP3u3POXdo56Kz-0">
           <mxGeometry y="20" width="800" height="170" as="geometry" />
         </mxCell>
+        <mxCell id="64zDqQc587NXTN1n4jUS-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="Z-673CSP3u3POXdo56Kz-1" source="Z-673CSP3u3POXdo56Kz-3" target="64zDqQc587NXTN1n4jUS-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-673CSP3u3POXdo56Kz-3" value="&lt;font color=&quot;#000000&quot;&gt;Display&lt;br&gt;&amp;nbsp; Show Information:&lt;br&gt;Goods : Image,Code,Name,Desc&lt;br&gt;Auction : Status,&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; text-align: left&quot;&gt;Start_Time,&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; text-align: left&quot;&gt;End_Time&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;Show List:&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;Player_Bid.bidTime&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;Player_Bid.bidValue By User.name&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="shape=display;whiteSpace=wrap;html=1;fontColor=#00CC00;" vertex="1" parent="Z-673CSP3u3POXdo56Kz-1">
+          <mxGeometry x="210" y="15" width="410" height="110" as="geometry" />
+        </mxCell>
         <mxCell id="Z-673CSP3u3POXdo56Kz-2" value="Http Request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Z-673CSP3u3POXdo56Kz-1">
           <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Z-673CSP3u3POXdo56Kz-3" value="&lt;font color=&quot;#000000&quot;&gt;Display&lt;br&gt;&amp;nbsp; Show Information:&lt;br&gt;Goods : Image,Code,Name,Desc&lt;br&gt;Auction : Status,&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; text-align: left&quot;&gt;Start_Time,&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; text-align: left&quot;&gt;End_Time&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;Show List:&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;Player_Bid.bidTime&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;Player_Bid.bidValue By User.name&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="shape=display;whiteSpace=wrap;html=1;fontColor=#00CC00;" vertex="1" parent="Z-673CSP3u3POXdo56Kz-1">
-          <mxGeometry x="270" y="20" width="410" height="110" as="geometry" />
+        <mxCell id="64zDqQc587NXTN1n4jUS-0" value="&lt;span&gt;End&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="Z-673CSP3u3POXdo56Kz-1">
+          <mxGeometry x="680" y="45" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Z-673CSP3u3POXdo56Kz-4" value="Controller" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="Z-673CSP3u3POXdo56Kz-0">
           <mxGeometry y="190" width="800" height="170" as="geometry" />
@@ -747,22 +765,22 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="tPAgVWU2J0UFVel_5B0a" name="Page-6">
-    <mxGraphModel dx="1865" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="tPAgVWU2J0UFVel_5B0a" name="Get_Aunction_Schedule">
+    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="LaHPnRmLPkFOEdfGG52x-0" />
         <mxCell id="LaHPnRmLPkFOEdfGG52x-1" parent="LaHPnRmLPkFOEdfGG52x-0" />
         <mxCell id="sDeupjb1lG7Qxcn2bK0s-0" value="Api Uri : /get_aunction_schedule" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;" vertex="1" parent="LaHPnRmLPkFOEdfGG52x-1">
-          <mxGeometry x="-10" y="90" width="800" height="700" as="geometry" />
+          <mxGeometry y="90" width="800" height="700" as="geometry" />
         </mxCell>
         <mxCell id="sDeupjb1lG7Qxcn2bK0s-1" value="Client" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="sDeupjb1lG7Qxcn2bK0s-0">
           <mxGeometry y="20" width="800" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="sDeupjb1lG7Qxcn2bK0s-2" value="&lt;span style=&quot;font-weight: 700&quot;&gt;Schedule every 1 min (or other)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sDeupjb1lG7Qxcn2bK0s-1">
-          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        <mxCell id="JR1e_EJpBS-AbsUKrSeK-3" value="&lt;span&gt;End&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="sDeupjb1lG7Qxcn2bK0s-1">
+          <mxGeometry x="540" y="50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sDeupjb1lG7Qxcn2bK0s-3" value="&lt;font color=&quot;#000000&quot;&gt;Display&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&amp;nbsp; Show Information:&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;Goods : Image,Code,Name,Desc&lt;br&gt;Auction : Status,&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; text-align: left&quot;&gt;Start_Time,&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; text-align: left&quot;&gt;End_Time&lt;br&gt;,Lowest_Bit,&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; text-align: left&quot;&gt;Lowest_Bit_Rate&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="shape=display;whiteSpace=wrap;html=1;fontColor=#00CC00;" vertex="1" parent="sDeupjb1lG7Qxcn2bK0s-1">
-          <mxGeometry x="450" y="20" width="290" height="110" as="geometry" />
+        <mxCell id="sDeupjb1lG7Qxcn2bK0s-2" value="&lt;span style=&quot;&quot;&gt;Schedule every 1 min (or other)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="sDeupjb1lG7Qxcn2bK0s-1">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sDeupjb1lG7Qxcn2bK0s-4" value="Controller" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="sDeupjb1lG7Qxcn2bK0s-0">
           <mxGeometry y="190" width="800" height="170" as="geometry" />
@@ -787,7 +805,7 @@
         <mxCell id="sDeupjb1lG7Qxcn2bK0s-9" value="Service" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="sDeupjb1lG7Qxcn2bK0s-0">
           <mxGeometry y="360" width="800" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="sDeupjb1lG7Qxcn2bK0s-13" value="Set &lt;br&gt;to&amp;nbsp;&lt;br&gt;&lt;span&gt;AunctionInformationResponse&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="sDeupjb1lG7Qxcn2bK0s-9">
+        <mxCell id="sDeupjb1lG7Qxcn2bK0s-13" value="Set ResponseCommon&lt;br&gt;Msg : Sucess" style="whiteSpace=wrap;html=1;" vertex="1" parent="sDeupjb1lG7Qxcn2bK0s-9">
           <mxGeometry x="500" y="60" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sDeupjb1lG7Qxcn2bK0s-10" value="Call Repository" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="sDeupjb1lG7Qxcn2bK0s-9">
@@ -814,8 +832,10 @@
         <mxCell id="sDeupjb1lG7Qxcn2bK0s-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#00CC00;" edge="1" parent="sDeupjb1lG7Qxcn2bK0s-0" source="sDeupjb1lG7Qxcn2bK0s-13" target="sDeupjb1lG7Qxcn2bK0s-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sDeupjb1lG7Qxcn2bK0s-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.518;entryY=0.998;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#00CC00;" edge="1" parent="sDeupjb1lG7Qxcn2bK0s-0" source="sDeupjb1lG7Qxcn2bK0s-6" target="sDeupjb1lG7Qxcn2bK0s-3">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="sDeupjb1lG7Qxcn2bK0s-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#00CC00;" edge="1" parent="sDeupjb1lG7Qxcn2bK0s-0" source="sDeupjb1lG7Qxcn2bK0s-6" target="JR1e_EJpBS-AbsUKrSeK-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600.22" y="149.77999999999997" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="GkIVQtyn0vBlk551HJ9J-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="sDeupjb1lG7Qxcn2bK0s-0" source="sDeupjb1lG7Qxcn2bK0s-10" target="sDeupjb1lG7Qxcn2bK0s-22">
           <mxGeometry relative="1" as="geometry" />
@@ -823,11 +843,31 @@
         <mxCell id="sDeupjb1lG7Qxcn2bK0s-20" value="Repository" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="sDeupjb1lG7Qxcn2bK0s-0">
           <mxGeometry y="540" width="800" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="sDeupjb1lG7Qxcn2bK0s-25" value="Select&amp;nbsp;&amp;nbsp;Aucntion where DateNow Between&amp;nbsp;&amp;nbsp;&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="sDeupjb1lG7Qxcn2bK0s-20">
-          <mxGeometry x="200" y="60" width="160" height="60" as="geometry" />
+        <mxCell id="JR1e_EJpBS-AbsUKrSeK-0" value="&lt;span&gt;Update Auction.status = &#39;closed&#39;&lt;br&gt;where DateNow =&amp;nbsp;&lt;/span&gt;Auction.end_time&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="sDeupjb1lG7Qxcn2bK0s-20">
+          <mxGeometry x="440" y="50" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JR1e_EJpBS-AbsUKrSeK-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="sDeupjb1lG7Qxcn2bK0s-20" source="sDeupjb1lG7Qxcn2bK0s-25" target="JR1e_EJpBS-AbsUKrSeK-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sDeupjb1lG7Qxcn2bK0s-25" value="&lt;span&gt;Update Auction.status = &#39;inprogress&#39;&lt;br&gt;where DateNow =&amp;nbsp;&lt;/span&gt;Auction.start_time&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="sDeupjb1lG7Qxcn2bK0s-20">
+          <mxGeometry x="190" y="50" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GkIVQtyn0vBlk551HJ9J-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="sDeupjb1lG7Qxcn2bK0s-20" source="sDeupjb1lG7Qxcn2bK0s-22" target="sDeupjb1lG7Qxcn2bK0s-25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sDeupjb1lG7Qxcn2bK0s-22" value="Connect to database" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;direction=south;" vertex="1" parent="sDeupjb1lG7Qxcn2bK0s-20">
           <mxGeometry x="70" y="50" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JR1e_EJpBS-AbsUKrSeK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="sDeupjb1lG7Qxcn2bK0s-0" source="JR1e_EJpBS-AbsUKrSeK-0" target="sDeupjb1lG7Qxcn2bK0s-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="545" y="500" />
+              <mxPoint x="545" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GkIVQtyn0vBlk551HJ9J-3" value="Date In Scale Minute" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontColor=#000000;" vertex="1" parent="LaHPnRmLPkFOEdfGG52x-1">
+          <mxGeometry x="20" y="830" width="170" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
