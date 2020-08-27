@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-27T08:07:47.925Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="T7_m-J5meTRKChzEvDoo" version="13.6.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-08-27T08:08:52.124Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="9thMacjVkmgSNIj9D6ox" version="13.6.5" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="DB_DESIGN">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,22 +40,22 @@
         <mxCell id="klmerCUItKwA0fcdnIP1-18" value="Status : varchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="klmerCUItKwA0fcdnIP1-8">
           <mxGeometry y="130" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="klmerCUItKwA0fcdnIP1-19" value="Lowerst_Bit: number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="klmerCUItKwA0fcdnIP1-8">
+        <mxCell id="klmerCUItKwA0fcdnIP1-19" value="Lowerst_Bid: number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="klmerCUItKwA0fcdnIP1-8">
           <mxGeometry y="156" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="klmerCUItKwA0fcdnIP1-20" value="Lowest_Bit_Rate: number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="klmerCUItKwA0fcdnIP1-8">
+        <mxCell id="klmerCUItKwA0fcdnIP1-20" value="Lowest_Bid_Rate: number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="klmerCUItKwA0fcdnIP1-8">
           <mxGeometry y="182" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="klmerCUItKwA0fcdnIP1-17" value="1:1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="klmerCUItKwA0fcdnIP1-1" target="klmerCUItKwA0fcdnIP1-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="klmerCUItKwA0fcdnIP1-21" value="Player_Bit" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="klmerCUItKwA0fcdnIP1-21" value="Player_Bid" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="480" y="550" width="160" height="156" as="geometry" />
         </mxCell>
         <mxCell id="klmerCUItKwA0fcdnIP1-22" value="*ID : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#FF0000;" vertex="1" parent="klmerCUItKwA0fcdnIP1-21">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="klmerCUItKwA0fcdnIP1-23" value="Bit_Value : number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="klmerCUItKwA0fcdnIP1-21">
+        <mxCell id="klmerCUItKwA0fcdnIP1-23" value="Bid_Value : number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="klmerCUItKwA0fcdnIP1-21">
           <mxGeometry y="52" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="klmerCUItKwA0fcdnIP1-24" value="User_Id : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#00CC00;" vertex="1" parent="klmerCUItKwA0fcdnIP1-21">
@@ -64,7 +64,7 @@
         <mxCell id="klmerCUItKwA0fcdnIP1-25" value="Aucntion_Id : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#00CC00;" vertex="1" parent="klmerCUItKwA0fcdnIP1-21">
           <mxGeometry y="104" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="klmerCUItKwA0fcdnIP1-26" value="Bit_Time: datetime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="klmerCUItKwA0fcdnIP1-21">
+        <mxCell id="klmerCUItKwA0fcdnIP1-26" value="Bid_Time: datetime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="klmerCUItKwA0fcdnIP1-21">
           <mxGeometry y="130" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="klmerCUItKwA0fcdnIP1-29" value="1:Many" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="klmerCUItKwA0fcdnIP1-9" target="klmerCUItKwA0fcdnIP1-25">
